@@ -56,7 +56,7 @@ $(document).ready(function() {
       q2: q2
     }, function(data) {
       jQuery.parseJSON(data);
-      console.log(data);
+      //console.log(data);
       $('#add').hide(); // hide the add after send
     });
     return false;
